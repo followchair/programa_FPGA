@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\XilinxAriketak\EDK\DispositivoGuia\principal.ncd
+OUTFILE=C:\XilinxAriketak\EDK\DispositivoGuia\principal.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=C:\XilinxAriketak\EDK\DispositivoGuia
+LICENSE=WebPack
+USER_INFO=__174114749_174114750_174417031

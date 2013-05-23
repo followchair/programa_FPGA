@@ -1,0 +1,6 @@
+work	"FSM_Boton.vhd"
+work	"FSM_datasend.vhd"
+work	"mux.vhd"
+work	"principal.vhd"
+work	"timer_100ms.vhd"
+work	"timer_200ms.vhd"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/XilinxAriketak/EDK/DispositivoGuia/FSM_Boton.xst" -ofn "C:/XilinxAriketak/EDK/DispositivoGuia/FSM_Boton.syr" 

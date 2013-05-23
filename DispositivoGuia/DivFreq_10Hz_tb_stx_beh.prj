@@ -1,0 +1,2 @@
+vhdl isim_temp "DivFreq_10Hz.vhd"
+vhdl isim_temp "DivFreq_10Hz_tb.vhd"

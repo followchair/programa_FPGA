@@ -1,0 +1,2 @@
+vhdl isim_temp "FSM_Boton.vhd"
+vhdl isim_temp "FSM_Boton_tb.vhd"

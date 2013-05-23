@@ -1,0 +1,32 @@
+Running: C:\Xilinx\13.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/XilinxAriketak/EDK/DispositivoGuia/principal_tb_isim_beh.exe -prj C:/XilinxAriketak/EDK/DispositivoGuia/principal_tb_beh.prj work.principal_tb 
+ISim O.40d (signature 0xc4ca3437)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/XilinxAriketak/EDK/DispositivoGuia/timer_200ms.vhd" into library work
+Parsing VHDL file "C:/XilinxAriketak/EDK/DispositivoGuia/timer_100ms.vhd" into library work
+Parsing VHDL file "C:/XilinxAriketak/EDK/DispositivoGuia/mux.vhd" into library work
+Parsing VHDL file "C:/XilinxAriketak/EDK/DispositivoGuia/FSM_datasend.vhd" into library work
+Parsing VHDL file "C:/XilinxAriketak/EDK/DispositivoGuia/FSM_Boton.vhd" into library work
+Parsing VHDL file "C:/XilinxAriketak/EDK/DispositivoGuia/principal.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/XilinxAriketak/EDK/DispositivoGuia/principal.vhd" Line 121: Actual for formal port data_off is neither a static name nor a globally static expression
+Parsing VHDL file "C:/XilinxAriketak/EDK/DispositivoGuia/principal_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Compiling architecture behavioral of entity fsm_boton [fsm_boton_default]
+Compiling architecture behavioral of entity timer_100ms [timer_100ms_default]
+Compiling architecture behavioral of entity timer_200ms [timer_200ms_default]
+Compiling architecture behavioral of entity fsm_datasend [fsm_datasend_default]
+Compiling architecture behavioral of entity mux [mux_default]
+Compiling architecture behavioral of entity principal [principal_default]
+Compiling architecture behavior of entity principal_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable C:/XilinxAriketak/EDK/DispositivoGuia/principal_tb_isim_beh.exe
+Fuse Memory Usage: 19228 KB
+Fuse CPU Usage: 717 ms

@@ -1,0 +1,7 @@
+vhdl work "timer_200ms.vhd"
+vhdl work "timer_100ms.vhd"
+vhdl work "mux.vhd"
+vhdl work "FSM_datasend.vhd"
+vhdl work "FSM_Boton.vhd"
+vhdl work "principal.vhd"
+vhdl work "principal_tb.vhd"

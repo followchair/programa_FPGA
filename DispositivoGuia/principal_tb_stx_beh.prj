@@ -1,0 +1,7 @@
+vhdl isim_temp "timer_200ms.vhd"
+vhdl isim_temp "timer_100ms.vhd"
+vhdl isim_temp "mux.vhd"
+vhdl isim_temp "FSM_datasend.vhd"
+vhdl isim_temp "FSM_Boton.vhd"
+vhdl isim_temp "principal.vhd"
+vhdl isim_temp "principal_tb.vhd"

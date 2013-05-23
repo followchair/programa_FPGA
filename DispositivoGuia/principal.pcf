@@ -1,0 +1,31 @@
+//! **************************************************************************
+// Written by: Map O.40d on Thu Jan 31 16:17:06 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "switch" LOCATE = SITE "F16" LEVEL 1;
+COMP "Emisor<0>" LOCATE = SITE "F14" LEVEL 1;
+COMP "Emisor<1>" LOCATE = SITE "G14" LEVEL 1;
+COMP "Emisor<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "Emisor<3>" LOCATE = SITE "D18" LEVEL 1;
+COMP "Emisor<4>" LOCATE = SITE "P4" LEVEL 1;
+COMP "rst" LOCATE = SITE "B4" LEVEL 1;
+TIMEGRP clk = BEL "U1/estado_FSM_FFd1" BEL "U1/estado_FSM_FFd2" BEL
+        "U4/estado_FSM_FFd1" BEL "U4/estado_FSM_FFd2" BEL "U4/cont_2" BEL
+        "U4/cont_1" BEL "U4/cont_0" BEL "U4/En_timer" BEL "U2/Cont_21" BEL
+        "U2/Cont_20" BEL "U2/Cont_19" BEL "U2/Cont_18" BEL "U2/Cont_17" BEL
+        "U2/Cont_16" BEL "U2/Cont_15" BEL "U2/Cont_14" BEL "U2/Cont_13" BEL
+        "U2/Cont_12" BEL "U2/Cont_11" BEL "U2/Cont_10" BEL "U2/Cont_9" BEL
+        "U2/Cont_8" BEL "U2/Cont_7" BEL "U2/Cont_6" BEL "U2/Cont_5" BEL
+        "U2/Cont_4" BEL "U2/Cont_3" BEL "U2/Cont_2" BEL "U2/Cont_1" BEL
+        "U2/Cont_0" BEL "U3/Cont_23" BEL "U3/Cont_22" BEL "U3/Cont_21" BEL
+        "U3/Cont_20" BEL "U3/Cont_19" BEL "U3/Cont_18" BEL "U3/Cont_17" BEL
+        "U3/Cont_16" BEL "U3/Cont_15" BEL "U3/Cont_14" BEL "U3/Cont_13" BEL
+        "U3/Cont_12" BEL "U3/Cont_11" BEL "U3/Cont_10" BEL "U3/Cont_9" BEL
+        "U3/Cont_8" BEL "U3/Cont_7" BEL "U3/Cont_6" BEL "U3/Cont_5" BEL
+        "U3/Cont_4" BEL "U3/Cont_3" BEL "U3/Cont_2" BEL "U3/Cont_1" BEL
+        "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 40 MHz HIGH 50%;
+SCHEMATIC END;
+

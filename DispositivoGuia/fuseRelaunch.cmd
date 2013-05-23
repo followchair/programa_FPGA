@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/XilinxAriketak/EDK/DispositivoGuia/principal_tb_isim_beh.exe" -prj "C:/XilinxAriketak/EDK/DispositivoGuia/principal_tb_beh.prj" "work.principal_tb" 

@@ -1,0 +1,2 @@
+vhdl isim_temp "timer_200ms.vhd"
+vhdl isim_temp "timer_200ms_tb.vhd"
