@@ -14,8 +14,3 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 at 5 ns(1), Instance /principal_tb/uut/U2/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# restart
-# run all
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-Stopped at time : 1383280 ns : File "C:/XilinxAriketak/EDK/DispositivoGuia/principal_tb.vhd" Line 79

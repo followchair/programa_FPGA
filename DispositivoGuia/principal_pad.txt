@@ -1,7 +1,7 @@
 Release 13.1 - par O.40d (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-Thu Jan 31 16:17:26 2013
+Thu May 30 14:55:08 2013
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -90,8 +90,8 @@ Pinout by Pin Number:
 |D14       |           |IOBM     |IO_L65P_SCP3_0               |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |D15       |           |         |TDI                          |         |           |              |          |         |           |         |         |          |           |                |
 |D16       |           |         |TDO                          |         |           |              |          |         |           |         |         |          |           |                |
-|D17       |Emisor<2>  |IOB      |IO_L31P_A19_M1CKE_1          |OUTPUT   |LVCMOS33   |1             |12        |         |           |         |         |LOCATED   |NO         |NONE            |
-|D18       |Emisor<3>  |IOB      |IO_L31N_A18_M1A12_1          |OUTPUT   |LVCMOS33   |1             |12        |         |           |         |         |LOCATED   |NO         |NONE            |
+|D17       |           |IOBM     |IO_L31P_A19_M1CKE_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
+|D18       |           |IOBS     |IO_L31N_A18_M1A12_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |E1        |           |IOBS     |IO_L50N_M3BA2_3              |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |E2        |           |         |VCCO_3                       |         |           |3             |          |         |           |         |1.80     |          |           |                |
 |E3        |           |IOBM     |IO_L50P_M3WE_3               |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
@@ -123,11 +123,11 @@ Pinout by Pin Number:
 |F11       |           |         |NC                           |         |           |              |          |         |           |         |         |          |           |                |
 |F12       |           |         |NC                           |         |           |              |          |         |           |         |         |          |           |                |
 |F13       |           |IOBM     |IO_L63P_SCP7_0               |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
-|F14       |Emisor<0>  |IOB      |IO_L30P_A21_M1RESET_1        |OUTPUT   |LVCMOS33   |1             |12        |         |           |         |         |LOCATED   |NO         |NONE            |
+|F14       |           |IOBM     |IO_L30P_A21_M1RESET_1        |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |F15       |           |IOBM     |IO_L1P_A25_1                 |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
-|F16       |switch     |IOB      |IO_L1N_A24_VREF_1            |INPUT    |LVCMOS33   |1             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
-|F17       |           |IOBM     |IO_L35P_A11_M1A7_1           |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
-|F18       |           |IOBS     |IO_L35N_A10_M1A2_1           |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
+|F16       |           |IOBS     |IO_L1N_A24_VREF_1            |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
+|F17       |Emisor<2>  |IOB      |IO_L35P_A11_M1A7_1           |OUTPUT   |LVCMOS33   |1             |12        |         |           |         |         |LOCATED   |NO         |NONE            |
+|F18       |Emisor<3>  |IOB      |IO_L35N_A10_M1A2_1           |OUTPUT   |LVCMOS33   |1             |12        |         |           |         |         |LOCATED   |NO         |NONE            |
 |G1        |           |IOBS     |IO_L46N_M3CLKN_3             |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |G2        |           |         |GND                          |         |           |              |          |         |           |         |         |          |           |                |
 |G3        |           |IOBM     |IO_L46P_M3CLK_3              |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
@@ -140,8 +140,8 @@ Pinout by Pin Number:
 |G10       |           |         |VCCAUX                       |         |           |              |          |         |           |         |2.5      |          |           |                |
 |G11       |           |         |NC                           |         |           |              |          |         |           |         |         |          |           |                |
 |G12       |           |         |GND                          |         |           |              |          |         |           |         |         |          |           |                |
-|G13       |           |IOBS     |IO_L32N_A16_M1A9_1           |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
-|G14       |Emisor<1>  |IOB      |IO_L30N_A20_M1A11_1          |OUTPUT   |LVCMOS33   |1             |12        |         |           |         |         |LOCATED   |NO         |NONE            |
+|G13       |switch     |IOB      |IO_L32N_A16_M1A9_1           |INPUT    |LVCMOS33   |1             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|G14       |           |IOBS     |IO_L30N_A20_M1A11_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |G15       |           |         |VCCO_1                       |         |           |1             |          |         |           |         |3.30     |          |           |                |
 |G16       |           |IOBM     |IO_L38P_A5_M1CLK_1           |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |G17       |           |         |GND                          |         |           |              |          |         |           |         |         |          |           |                |
@@ -193,8 +193,8 @@ Pinout by Pin Number:
 |K9        |           |         |VCCINT                       |         |           |              |          |         |           |         |1.2      |          |           |                |
 |K10       |           |         |GND                          |         |           |              |          |         |           |         |         |          |           |                |
 |K11       |           |         |VCCINT                       |         |           |              |          |         |           |         |1.2      |          |           |                |
-|K12       |           |IOBM     |IO_L34P_A13_M1WE_1           |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
-|K13       |           |IOBS     |IO_L34N_A12_M1BA2_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
+|K12       |Emisor<0>  |IOB      |IO_L34P_A13_M1WE_1           |OUTPUT   |LVCMOS33   |1             |12        |         |           |         |         |LOCATED   |NO         |NONE            |
+|K13       |Emisor<1>  |IOB      |IO_L34N_A12_M1BA2_1          |OUTPUT   |LVCMOS33   |1             |12        |         |           |         |         |LOCATED   |NO         |NONE            |
 |K14       |           |IOBS     |IO_L39N_M1ODT_1              |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |K15       |           |IOBM     |IO_L41P_GCLK9_IRDY1_M1RASN_1 |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |K16       |           |IOBS     |IO_L41N_GCLK8_M1CASN_1       |UNUSED   |           |1             |          |         |           |         |         |          |           |                |

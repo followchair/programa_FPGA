@@ -1,14 +1,14 @@
 //! **************************************************************************
-// Written by: Map O.40d on Thu Jan 31 16:17:06 2013
+// Written by: Map O.40d on Thu May 30 14:55:00 2013
 //! **************************************************************************
 
 SCHEMATIC START;
 COMP "clk" LOCATE = SITE "V10" LEVEL 1;
-COMP "switch" LOCATE = SITE "F16" LEVEL 1;
-COMP "Emisor<0>" LOCATE = SITE "F14" LEVEL 1;
-COMP "Emisor<1>" LOCATE = SITE "G14" LEVEL 1;
-COMP "Emisor<2>" LOCATE = SITE "D17" LEVEL 1;
-COMP "Emisor<3>" LOCATE = SITE "D18" LEVEL 1;
+COMP "switch" LOCATE = SITE "G13" LEVEL 1;
+COMP "Emisor<0>" LOCATE = SITE "K12" LEVEL 1;
+COMP "Emisor<1>" LOCATE = SITE "K13" LEVEL 1;
+COMP "Emisor<2>" LOCATE = SITE "F17" LEVEL 1;
+COMP "Emisor<3>" LOCATE = SITE "F18" LEVEL 1;
 COMP "Emisor<4>" LOCATE = SITE "P4" LEVEL 1;
 COMP "rst" LOCATE = SITE "B4" LEVEL 1;
 TIMEGRP clk = BEL "U1/estado_FSM_FFd1" BEL "U1/estado_FSM_FFd2" BEL

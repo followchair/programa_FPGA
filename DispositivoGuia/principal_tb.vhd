@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   18:36:51 01/23/2013
+-- Create Date:   17:02:09 05/23/2013
 -- Design Name:   
 -- Module Name:   C:/XilinxAriketak/EDK/DispositivoGuia/principal_tb.vhd
 -- Project Name:  DispositivoGuia
@@ -41,23 +41,21 @@ ARCHITECTURE behavior OF principal_tb IS
  
     COMPONENT principal
     PORT(
-         Boton_on : IN  std_logic;
-         Boton_off : IN  std_logic;
+         switch : IN  std_logic;
          clk : IN  std_logic;
          rst : IN  std_logic;
-         Emisor : OUT  std_logic_vector(3 downto 0)
+         Emisor : OUT  std_logic_vector(4 downto 0)
         );
     END COMPONENT;
     
 
    --Inputs
-   signal Boton_on : std_logic := '0';
-   signal Boton_off : std_logic := '0';
+   signal switch : std_logic := '0';
    signal clk : std_logic := '0';
    signal rst : std_logic := '0';
 
  	--Outputs
-   signal Emisor : std_logic_vector(3 downto 0);
+   signal Emisor : std_logic_vector(4 downto 0);
 
    -- Clock period definitions
    constant clk_period : time := 10 ns;
@@ -66,8 +64,7 @@ BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
    uut: principal PORT MAP (
-          Boton_on => Boton_on,
-          Boton_off => Boton_off,
+          switch => switch,
           clk => clk,
           rst => rst,
           Emisor => Emisor
@@ -92,13 +89,9 @@ BEGIN
 		wait for 100 ns;	
 		rst<='0';
 		wait for 100 ns;	
-		Boton_on<='1';
+		switch<='1';
 		wait for 100 ns;	
-		Boton_on<='0';
-		wait for 200 us;
-		Boton_off<='1';
-		wait for 100 ns;	
-		Boton_off<='0';
+		switch<='0';
       wait for clk_period*10;
 
       -- insert stimulus here 

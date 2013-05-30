@@ -40,7 +40,7 @@ end timer_100ms;
 
 architecture Behavioral of timer_100ms is
 
-signal Cont: STD_LOGIC_VECTOR(21 downto 0);
+signal Cont: STD_LOGIC_VECTOR(21 downto 0); --ona
 --signal Cont: STD_LOGIC_VECTOR(24 downto 0); --LED-akin Probatzeko
 
 begin
@@ -52,10 +52,10 @@ begin
 		if En = '0' then
 			Cont <= (others => '0');
 		else
-		if Cont = 4000001 then
-		--	if Cont = 20000001 then--LED
+		if Cont = 4000001 then --ona
+			--if Cont = 20000001 then--LED
 		--	if Cont = 401 then -- Para la SIMULACIÓN he reducido el tiempo a 10u seg
-			Cont <="0000000000000000000010";
+			Cont <="0000000000000000000010"; --ona
 			--Cont <="0000000000000000000000010"; --LED
 			else
 				Cont <= Cont + 1;
@@ -67,7 +67,7 @@ end process;
 with Cont select
 señal_100ms <= --'1' when "1001100010010110100000001", --20000001-LED
 			--'1' when "0000000000000110010001", --401!! SIMULATZEKO
-			'1' when "1111010000100100000001", --4000001
+			'1' when "1111010000100100000001", --4000001 --ONA
 			  '0' when others;
 
 end Behavioral;

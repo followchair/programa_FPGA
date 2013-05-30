@@ -39,8 +39,8 @@ end timer_200ms;
 
 architecture Behavioral of timer_200ms is
 
---signal Cont: STD_LOGIC_VECTOR(21 downto 0);
-signal Cont: STD_LOGIC_VECTOR(23 downto 0);
+--signal Cont: STD_LOGIC_VECTOR(25 downto 0); --LED?
+signal Cont: STD_LOGIC_VECTOR(23 downto 0); --ONA
 
 begin
 process ( clk, rst, En )
@@ -51,10 +51,10 @@ begin
 		if En = '0' then
 			Cont <= (others => '0');
 		else
-		if Cont = 12000001 then
+		if Cont = 12000001 then --ONA
 			--if Cont = 1200 then -- Para la SIMULACIÓN he reducido el tiempo a 10u seg
 			--if Cont = 60000000 then --LED
-			Cont <="001111010000100100000000";
+			Cont <="001111010000100100000000"; --ONA
 			--Cont <="01001100010010110100000000"; --LED
 			else
 				Cont <= Cont + 1;
@@ -66,7 +66,7 @@ end process;
 with Cont select
 señal_200ms <= --'1' when "11100100111000011100000000", --LED
 				-- '1' when "0000000000010010110000", --1200!! SIMULATZEKO
-		       '1' when "101101110001101100000001", --12000001
+		       '1' when "101101110001101100000001", --12000001 --ONA
 			  '0' when others;
 
 end Behavioral;

@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Thu Jan 31 16:17:07 2013">
+  <application stringID="Map" timeStamp="Thu May 30 14:55:01 2013">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Xilinx\13.1\ISE_DS\ISE\\lib\nt64;C:\Xilinx\13.1\ISE_DS\ISE\\bin\nt64;C:\Xilinx\13.1\ISE_DS\PlanAhead\bin;C:\Xilinx\13.1\ISE_DS\ISE\bin\nt64;C:\Xilinx\13.1\ISE_DS\ISE\lib\nt64;C:\Xilinx\13.1\ISE_DS\EDK\bin\nt64;C:\Xilinx\13.1\ISE_DS\EDK\lib\nt64;C:\Xilinx\13.1\ISE_DS\EDK\gnu\microblaze\nt64\bin;C:\Xilinx\13.1\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;C:\Xilinx\13.1\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\13.1\ISE_DS\common\bin\nt64;C:\Xilinx\13.1\ISE_DS\common\lib\nt64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\app\CoIDE\gcc\Sourcery G++ Lite\bin"/>
+          <item stringID="value" value="C:\Xilinx\13.1\ISE_DS\ISE\\lib\nt64;C:\Xilinx\13.1\ISE_DS\ISE\\bin\nt64;C:\Xilinx\13.1\ISE_DS\PlanAhead\bin;C:\Xilinx\13.1\ISE_DS\ISE\bin\nt64;C:\Xilinx\13.1\ISE_DS\ISE\lib\nt64;C:\Xilinx\13.1\ISE_DS\EDK\bin\nt64;C:\Xilinx\13.1\ISE_DS\EDK\lib\nt64;C:\Xilinx\13.1\ISE_DS\EDK\gnu\microblaze\nt64\bin;C:\Xilinx\13.1\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;C:\Xilinx\13.1\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\13.1\ISE_DS\common\bin\nt64;C:\Xilinx\13.1\ISE_DS\common\lib\nt64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\app\CoIDE\gcc\Sourcery G++ Lite\bin;C:\Program Files\Symantec\Workspace Virtualization\;C:\Program Files\MATLAB\R2012a\runtime\win64;C:\Program Files\MATLAB\R2012a\bin;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files\TortoiseGit\bin;C:\Program Files\doxygen\bin"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -121,9 +121,9 @@
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="1"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="349232"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="22 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="21 secs "/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="345308"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="7 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="7 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
         <item AVAILABLE="11440" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="53">
